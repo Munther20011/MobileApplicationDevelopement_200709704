@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:textAlignment="center" tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My first Android"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Application"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+    <ImageView android:id="@+id/imageView2" android:layout_width="match_parent" android:layout_height="194dp" app:srcCompat="@mipmap/ic_launcher"/>
+    <EditText android:id="@+id/editTextText" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="username " android:inputType="text" android:minHeight="48dp"/>
+    <EditText android:id="@+id/editTextText2" android:layout_width="match_parent" android:layout_height="wrap_content" android:ems="10" android:hint="password" android:inputType="text" android:minHeight="48dp"/>
+    <Button android:id="@+id/buttonLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Login"/>
+</LinearLayout>
